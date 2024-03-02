@@ -1,6 +1,3 @@
-# Anykbaiuly Bagdat SE-2211 
-# Final Web(Back-End)
-
 # Portfolio Management System
 
 This is a web application built with Node.js and Express.js for managing portfolios. It allows users to register, login, and manage their items in a portfolio. Additionally, administrators have access to an admin panel for managing all items in the system.
@@ -41,9 +38,9 @@ This is a web application built with Node.js and Express.js for managing portfol
 
     ```env
     PORT=3000
-    MONGODB_URL=mongodb+srv://oralanykbajuly:oral2005@cluster0.4ndfquj.mongodb.net/portfolio
-    EMAIL_USER=oralanykbajuly@gmail.com
-    EMAIL_PASS=qwzx lrpx silp unuu
+    MONGODB_URL=
+    EMAIL_USER=
+    EMAIL_PASS=
     ```
 
    Replace `MONGODB_URI`, `EMAIL_USER`, and `EMAIL_PASS` with your MongoDB connection URI and email credentials.
@@ -56,17 +53,6 @@ This is a web application built with Node.js and Express.js for managing portfol
 
    Open your web browser and visit `http://localhost:3000`.
 
-7. Access for admin:
-
-   username: `ss` 
-   
-   password: `Oral2005@`
-
-8. Access for user:
-
-   username: `oral2005`
-
-   password: `Oral2005@`
 
 ## Usage
 
@@ -83,33 +69,4 @@ This is a web application built with Node.js and Express.js for managing portfol
 - [express-session](https://www.npmjs.com/package/express-session): Session middleware for Express.js
 - [Nodemailer](https://nodemailer.com/): Library for sending emails from Node.js
 - [dotenv](https://www.npmjs.com/package/dotenv): Loads environment variables from a .env file into process.env
-
-
-Sure, here's how you can explain the three APIs used in the provided code in the README:
-
----
-
-# API'S
-
-This is a web application built with Node.js and Express.js for managing portfolios. It leverages three external APIs to enhance functionality:
-
-## 1. IP Geolocation API
-
-The IP Geolocation API is used to determine the user's country based on their IP address. The application retrieves the user's IP address and then queries the IP Geolocation API to obtain the country information. This information is then used to display the user's country location on a map.
-
-API Endpoint: `https://ipapi.co/json/`
-
-## 2. Timezone API
-
-The Timezone API is utilized to fetch the user's timezone based on their IP address. After obtaining the timezone information, the application displays the current time in the user's timezone. This feature enhances user experience by providing personalized time information.
-
-API Endpoint: `https://ipapi.co/{ip}/timezone/`
-
-## 3. Random User Generator API
-
-The Random User Generator API is used to generate random user data. When the user clicks the "Generate Random User" button, the application makes a request to the Random User Generator API and fetches random user details such as name, email, location, gender, and age. This feature can be useful for testing or generating sample data.
-
-API Endpoint: `https://randomuser.me/api/`
-
----
 
