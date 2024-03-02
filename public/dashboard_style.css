@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #1a1a1a url('https://p.productioncrate.com/stock-hd/effects/footagecrate-4k-looping-tech-background-clean-purple-2-effect-lg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f1f1f1;
+}
+
+header {
+    background-color: rgba(70, 43, 63, 0.75);
+    color: #ffffff;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: rgba(70, 43, 63, 0.75);
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: inline-block;
+    margin: 0 0.5em;
+    background: #7c347e;
+    color: #ffffff;
+    border-radius: 0.3em;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover, nav a:focus {
+    background: #333333;
+    color: #ffffff;
+}
+
+.center-content {
+    padding: 2em;
+    background-color:  rgba(226, 221, 225, 0.484);
+    margin-top: 1em;
+    border-radius: 0.5em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 0.5em;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.carousel-caption {
+    background: rgba(0,0,0,0.75);
+    border-radius: 0.3em;
+    padding: 1em;
+}
+
+h2 {
+    text-align: center;
+    color: #060606;
+}
+
+/* Additional styles for tables, forms, buttons, etc., can be added here */

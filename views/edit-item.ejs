@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Item</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+    <h1>Edit Item</h1>
+</header>
+<div class="container">
+    <!-- Form for editing an item -->
+    <form action="/admin/edit-item/<%= item._id %>" method="post">
+        <h2>Edit Item</h2>
+        <label for="names">Name:</label>
+        <input type="text" name="names" id="names" value="<%= item.names %>" required>
+        <br>
+        <label for="descriptions">Description:</label>
+        <input type="text" name="descriptions" id="descriptions" value="<%= item.descriptions %>" required>
+        <br>
+        <button type="submit">Update Item</button>
+    </form>
+</div>
+</body>
+</html>
